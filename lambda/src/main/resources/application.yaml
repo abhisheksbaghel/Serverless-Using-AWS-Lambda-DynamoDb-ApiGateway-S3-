@@ -1,0 +1,22 @@
+#spring.datasource.url=jdbc:h2:mem:testdb
+#spring.datasource.driverClassName=org.h2.Driver
+#spring.datasource.username=sa
+#spring.datasource.password=password
+#spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+#spring:
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#  datasource:
+#    driver-class-name: org.h2.Driver
+#    url: jdbc:h2:mem:testdb
+#    username: sa
+#    password: password
+
+aws:
+  dynamodb:
+    endpoint: dynamodb.ap-south-1.amazonaws.com
+    accessKey: AKIAVFXQLR2DLF4MRDD5
+    secretKey: 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
+  region: ap-south-1
+
+
